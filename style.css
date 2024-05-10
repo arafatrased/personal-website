@@ -104,13 +104,15 @@ section{
 }
 
 .email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     width: 50x;
     background-color: rgb(247, 74, 143);
     margin: 5px 200px;
     padding: 20px 50px;
-    align-content: center;
-    align-items: center;
     border-radius: 10px;
 
 }
